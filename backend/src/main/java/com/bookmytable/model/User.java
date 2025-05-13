@@ -28,12 +28,3 @@ public class User {
     private Set<Role> roles = new HashSet<>();
 }
 
-
-// @Data @Document @Builder
-// public class User {
-//   @Id private String id;
-//   private String email;
-//   private String passwordHash;
-//   private Set<Role> roles;
-//   private String phone;
-// }

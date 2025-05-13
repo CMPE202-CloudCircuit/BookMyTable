@@ -61,8 +61,6 @@ public class JwtProvider {
     /** Reads “Authorization: Bearer <token>” header */
     public String resolveToken(HttpServletRequest req) {
         String hdr = req.getHeader("Authorization");
-        return (hdr != null && hdr.startsWith("Bearer "))
-               ? hdr.substring(7)
-               : null;
+        return (hdr != null && hdr.startsWith("Bearer "))? hdr.substring(7): null;
     }
 }

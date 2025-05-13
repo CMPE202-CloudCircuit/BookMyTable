@@ -40,7 +40,7 @@ Web application that allows users to book tables at restaurants seamlessly. This
 ## 📋 Project Documentation
 
 https://docs.google.com/document/d/1WBgKvacd_V4ai3BrhAb74b6FaTxi6doCW4GT6u19BiA/edit?usp=sharing
-https://docs.google.com/document/d/1b6YD1vI5IEZOM3YtcMhCUvQwq22gtQXn9w7xCCvlBuM/edit?usp=sharing
+https://docs.google.com/document/d/1b6YD1vI5IEZOM3YtcMhCUvQwq22gtQXn9w7xCCvlBuM/edit?tab=t.0
 
 
 ## 🛠️ Setup and Installation

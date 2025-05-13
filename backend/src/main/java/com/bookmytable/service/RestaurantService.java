@@ -15,7 +15,12 @@ public class RestaurantService {
   private final RestaurantRepository restRepo;
   private final BookingRepository    bookingRepo;
 
-
+  public List<SearchResult> search(SearchRequest req) {
+    List<Restaurant> pool =
+        req.zip() != null
+          ? restRepo.findByAddressZip(req.zip())
+          : restRepo.findByAddressCityIgnoreCaseAndAddressStateIgnoreCase(
+                req.city(), req.state());
 
     LocalTime from = req.time().minusMinutes(30);
     LocalTime to   = req.time().plusMinutes(30);

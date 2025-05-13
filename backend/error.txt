@@ -1,0 +1,506 @@
+spartan@IMS-194MBA backend % mvn clean package
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------< main.java.com.bookmytable:backend >------------------
+[INFO] Building book-my-table 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ backend ---
+[INFO] Deleting /Users/spartan/Documents/CMPE202/BookMyTable/backend/target
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ backend ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ backend ---
+[INFO] Recompiling the module because of changed source code.
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 27 source files with javac [debug release 17] to target/classes
+[INFO] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/config/JwtUtil.java: /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/config/JwtUtil.java uses or overrides a deprecated API.
+[INFO] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/config/JwtUtil.java: Recompile with -Xlint:deprecation for details.
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/config/SecurityConfig.java:[3,31] cannot access com.bookmytable.service.UserService
+  bad source file: /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/service/UserService.java
+    file does not contain class com.bookmytable.service.UserService
+    Please remove or make sure it appears in the correct subdirectory of the sourcepath.
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/repo/BookingRepository.java:[3,29] cannot access com.bookmytable.model.User
+  bad source file: /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/model/User.java
+    file does not contain class com.bookmytable.model.User
+    Please remove or make sure it appears in the correct subdirectory of the sourcepath.
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/service/BookingService.java:[3,27] cannot access com.bookmytable.dto.BookingRequest
+  bad source file: /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/dto/BookingRequest.java
+    file does not contain class com.bookmytable.dto.BookingRequest
+    Please remove or make sure it appears in the correct subdirectory of the sourcepath.
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/service/BookingService.java:[4,29] cannot access com.bookmytable.model.Booking
+  bad source file: /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/model/Booking.java
+    file does not contain class com.bookmytable.model.Booking
+    Please remove or make sure it appears in the correct subdirectory of the sourcepath.
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/service/BookingService.java:[5,28] cannot access com.bookmytable.repo.BookingRepository
+  bad source file: /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/repo/BookingRepository.java
+    file does not contain class com.bookmytable.repo.BookingRepository
+    Please remove or make sure it appears in the correct subdirectory of the sourcepath.
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/service/RestaurantService.java:[3,27] cannot access com.bookmytable.dto.SearchRequest
+  bad source file: /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/dto/SearchRequest.java
+    file does not contain class com.bookmytable.dto.SearchRequest
+    Please remove or make sure it appears in the correct subdirectory of the sourcepath.
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/service/RestaurantService.java:[4,27] cannot access com.bookmytable.dto.SearchResult
+  bad source file: /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/dto/SearchResult.java
+    file does not contain class com.bookmytable.dto.SearchResult
+    Please remove or make sure it appears in the correct subdirectory of the sourcepath.
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/service/RestaurantService.java:[7,28] cannot access com.bookmytable.repo.RestaurantRepository
+  bad source file: /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/repo/RestaurantRepository.java
+    file does not contain class com.bookmytable.repo.RestaurantRepository
+    Please remove or make sure it appears in the correct subdirectory of the sourcepath.
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/service/UserService.java:[3,30] cannot access com.bookmytable.config.JwtUtil
+  bad source file: /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/config/JwtUtil.java
+    file does not contain class com.bookmytable.config.JwtUtil
+    Please remove or make sure it appears in the correct subdirectory of the sourcepath.
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/service/UserService.java:[4,29] cannot access com.bookmytable.model.Role
+  bad source file: /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/model/Role.java
+    file does not contain class com.bookmytable.model.Role
+    Please remove or make sure it appears in the correct subdirectory of the sourcepath.
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/service/UserService.java:[6,28] cannot access com.bookmytable.repo.UserRepository
+  bad source file: /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/repo/UserRepository.java
+    file does not contain class com.bookmytable.repo.UserRepository
+    Please remove or make sure it appears in the correct subdirectory of the sourcepath.
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/web/AuthController.java:[4,27] cannot access com.bookmytable.dto.AuthRequest
+  bad source file: /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/dto/AuthRequest.java
+    file does not contain class com.bookmytable.dto.AuthRequest
+    Please remove or make sure it appears in the correct subdirectory of the sourcepath.
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/web/AuthController.java:[5,27] cannot access com.bookmytable.dto.AuthResponse
+  bad source file: /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/dto/AuthResponse.java
+    file does not contain class com.bookmytable.dto.AuthResponse
+    Please remove or make sure it appears in the correct subdirectory of the sourcepath.
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/web/BookingController.java:[7,31] cannot access com.bookmytable.service.BookingService
+  bad source file: /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/service/BookingService.java
+    file does not contain class com.bookmytable.service.BookingService
+    Please remove or make sure it appears in the correct subdirectory of the sourcepath.
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/web/PublicController.java:[6,29] cannot access com.bookmytable.model.Review
+  bad source file: /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/model/Review.java
+    file does not contain class com.bookmytable.model.Review
+    Please remove or make sure it appears in the correct subdirectory of the sourcepath.
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/web/PublicController.java:[7,28] cannot access com.bookmytable.repo.ReviewRepository
+  bad source file: /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/repo/ReviewRepository.java
+    file does not contain class com.bookmytable.repo.ReviewRepository
+    Please remove or make sure it appears in the correct subdirectory of the sourcepath.
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/web/PublicController.java:[8,31] cannot access com.bookmytable.service.RestaurantService
+  bad source file: /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/service/RestaurantService.java
+    file does not contain class com.bookmytable.service.RestaurantService
+    Please remove or make sure it appears in the correct subdirectory of the sourcepath.
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/dto/AuthRequest.java:[3,8] class AuthResponse is public, should be declared in a file named AuthResponse.java
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/dto/AuthResponse.java:[3,8] class AuthRequest is public, should be declared in a file named AuthRequest.java
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/dto/AuthResponse.java:[4,8] duplicate class: main.java.com.bookmytable.dto.AuthResponse
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/service/UserService.java:[16,8] duplicate class: main.java.com.bookmytable.service.UserService
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/config/SecurityConfig.java:[23,17] cannot find symbol
+  symbol:   class UserService
+  location: class SecurityConfig
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/config/SecurityConfig.java:[24,17] cannot find symbol
+  symbol:   class JwtAuthFilter
+  location: class SecurityConfig
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/dto/BookingRequest.java:[6,14] cannot find symbol
+  symbol:   class LocalDate
+  location: class main.java.com.bookmytable.dto.BookingRequest
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/dto/BookingRequest.java:[7,14] cannot find symbol
+  symbol:   class LocalTime
+  location: class main.java.com.bookmytable.dto.BookingRequest
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/dto/SearchRequest.java:[5,14] cannot find symbol
+  symbol:   class LocalDate
+  location: class main.java.com.bookmytable.dto.SearchRequest
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/dto/SearchRequest.java:[6,14] cannot find symbol
+  symbol:   class LocalTime
+  location: class main.java.com.bookmytable.dto.SearchRequest
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/model/User.java:[10,8] duplicate class: main.java.com.bookmytable.model.User
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/repo/BookingRepository.java:[5,60] cannot find symbol
+  symbol: class User
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/repo/BookingRepository.java:[6,12] cannot find symbol
+  symbol:   class User
+  location: interface main.java.com.bookmytable.repo.BookingRepository
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/repo/RestaurantRepository.java:[5,63] cannot find symbol
+  symbol: class User
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/repo/RestaurantRepository.java:[6,12] cannot find symbol
+  symbol:   class User
+  location: interface main.java.com.bookmytable.repo.RestaurantRepository
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/repo/ReviewRepository.java:[5,59] cannot find symbol
+  symbol: class User
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/repo/ReviewRepository.java:[6,12] cannot find symbol
+  symbol:   class User
+  location: interface main.java.com.bookmytable.repo.ReviewRepository
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/repo/UserRepository.java:[5,57] cannot find symbol
+  symbol: class User
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/repo/UserRepository.java:[6,12] cannot find symbol
+  symbol:   class User
+  location: interface main.java.com.bookmytable.repo.UserRepository
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/dto/BookingRequest.java:[4,8] duplicate class: main.java.com.bookmytable.dto.BookingRequest
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/model/Booking.java:[11,8] duplicate class: main.java.com.bookmytable.model.Booking
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/repo/BookingRepository.java:[5,8] duplicate class: main.java.com.bookmytable.repo.BookingRepository
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/service/BookingService.java:[14,17] cannot find symbol
+  symbol:   class BookingRepository
+  location: class main.java.com.bookmytable.service.BookingService
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/service/BookingService.java:[18,40] cannot find symbol
+  symbol:   class BookingRequest
+  location: class main.java.com.bookmytable.service.BookingService
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/service/BookingService.java:[18,10] cannot find symbol
+  symbol:   class Booking
+  location: class main.java.com.bookmytable.service.BookingService
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/dto/SearchRequest.java:[4,8] duplicate class: main.java.com.bookmytable.dto.SearchRequest
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/dto/SearchResult.java:[5,8] duplicate class: main.java.com.bookmytable.dto.SearchResult
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/repo/RestaurantRepository.java:[5,8] duplicate class: main.java.com.bookmytable.repo.RestaurantRepository
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/service/RestaurantService.java:[16,17] cannot find symbol
+  symbol:   class RestaurantRepository
+  location: class main.java.com.bookmytable.service.RestaurantService
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/service/RestaurantService.java:[17,17] cannot find symbol
+  symbol:   class BookingRepository
+  location: class main.java.com.bookmytable.service.RestaurantService
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/service/RestaurantService.java:[19,36] cannot find symbol
+  symbol:   class SearchRequest
+  location: class main.java.com.bookmytable.service.RestaurantService
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/service/RestaurantService.java:[19,15] cannot find symbol
+  symbol:   class SearchResult
+  location: class main.java.com.bookmytable.service.RestaurantService
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/config/JwtUtil.java:[14,8] duplicate class: main.java.com.bookmytable.config.JwtUtil
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/model/Role.java:[2,8] duplicate class: main.java.com.bookmytable.model.Role
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/repo/UserRepository.java:[5,8] duplicate class: main.java.com.bookmytable.repo.UserRepository
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/service/UserService.java:[17,17] cannot find symbol
+  symbol:   class UserRepository
+  location: class main.java.com.bookmytable.service.UserService
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/service/UserService.java:[19,17] cannot find symbol
+  symbol:   class JwtUtil
+  location: class main.java.com.bookmytable.service.UserService
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/dto/AuthRequest.java:[2,8] duplicate class: main.java.com.bookmytable.dto.AuthRequest
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/web/AuthController.java:[14,17] cannot find symbol
+  symbol:   class UserService
+  location: class main.java.com.bookmytable.web.AuthController
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/web/AuthController.java:[17,68] cannot find symbol
+  symbol:   class AuthRequest
+  location: class main.java.com.bookmytable.web.AuthController
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/web/AuthController.java:[17,25] cannot find symbol
+  symbol:   class AuthResponse
+  location: class main.java.com.bookmytable.web.AuthController
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/web/AuthController.java:[22,65] cannot find symbol
+  symbol:   class AuthRequest
+  location: class main.java.com.bookmytable.web.AuthController
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/web/AuthController.java:[22,25] cannot find symbol
+  symbol:   class AuthResponse
+  location: class main.java.com.bookmytable.web.AuthController
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/service/BookingService.java:[12,8] duplicate class: main.java.com.bookmytable.service.BookingService
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/web/BookingController.java:[17,17] cannot find symbol
+  symbol:   class BookingService
+  location: class main.java.com.bookmytable.web.BookingController
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/web/BookingController.java:[18,17] cannot find symbol
+  symbol:   class UserRepository
+  location: class main.java.com.bookmytable.web.BookingController
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/web/BookingController.java:[23,27] cannot find symbol
+  symbol:   class BookingRequest
+  location: class main.java.com.bookmytable.web.BookingController
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/web/BookingController.java:[21,25] cannot find symbol
+  symbol:   class Booking
+  location: class main.java.com.bookmytable.web.BookingController
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/model/Review.java:[8,8] duplicate class: main.java.com.bookmytable.model.Review
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/repo/ReviewRepository.java:[5,8] duplicate class: main.java.com.bookmytable.repo.ReviewRepository
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/service/RestaurantService.java:[15,8] duplicate class: main.java.com.bookmytable.service.RestaurantService
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/web/PublicController.java:[17,17] cannot find symbol
+  symbol:   class RestaurantService
+  location: class main.java.com.bookmytable.web.PublicController
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/web/PublicController.java:[18,17] cannot find symbol
+  symbol:   class ReviewRepository
+  location: class main.java.com.bookmytable.web.PublicController
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/web/PublicController.java:[21,43] cannot find symbol
+  symbol:   class SearchRequest
+  location: class main.java.com.bookmytable.web.PublicController
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/web/PublicController.java:[21,15] cannot find symbol
+  symbol:   class SearchResult
+  location: class main.java.com.bookmytable.web.PublicController
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/web/PublicController.java:[26,15] cannot find symbol
+  symbol:   class Review
+  location: class main.java.com.bookmytable.web.PublicController
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/config/JwtUtil.java:[29,16] cannot find symbol
+  symbol:   method parserBuilder()
+  location: class io.jsonwebtoken.Jwts
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/service/BookingService.java:[24,5] cannot find symbol
+  symbol:   class Booking
+  location: class main.java.com.bookmytable.service.BookingService
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/service/BookingService.java:[24,21] cannot find symbol
+  symbol:   class Booking
+  location: class main.java.com.bookmytable.service.BookingService
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/service/BookingService.java:[43,5] cannot find symbol
+  symbol:   class Booking
+  location: class main.java.com.bookmytable.service.BookingService
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/service/RestaurantService.java:[39,18] cannot find symbol
+  symbol:   class SearchResult
+  location: class main.java.com.bookmytable.service.RestaurantService
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/service/UserService.java:[23,5] cannot find symbol
+  symbol:   class User
+  location: class main.java.com.bookmytable.service.UserService
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/service/UserService.java:[23,18] cannot find symbol
+  symbol:   class User
+  location: class main.java.com.bookmytable.service.UserService
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/service/UserService.java:[26,23] cannot find symbol
+  symbol:   variable Role
+  location: class main.java.com.bookmytable.service.UserService
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/service/UserService.java:[32,5] cannot find symbol
+  symbol:   class User
+  location: class main.java.com.bookmytable.service.UserService
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/service/UserService.java:[40,5] cannot find symbol
+  symbol:   class User
+  location: class main.java.com.bookmytable.service.UserService
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/web/AuthController.java:[18,34] cannot find symbol
+  symbol:   class AuthResponse
+  location: class main.java.com.bookmytable.web.AuthController
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/web/AuthController.java:[23,34] cannot find symbol
+  symbol:   class AuthResponse
+  location: class main.java.com.bookmytable.web.AuthController
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/web/BookingController.java:[26,5] cannot find symbol
+  symbol:   class Booking
+  location: class main.java.com.bookmytable.web.BookingController
+[INFO] 86 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  2.021 s
+[INFO] Finished at: 2025-05-11T13:25:21-07:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.13.0:compile (default-compile) on project backend: Compilation failure: Compilation failure: 
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/config/SecurityConfig.java:[3,31] cannot access com.bookmytable.service.UserService
+[ERROR]   bad source file: /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/service/UserService.java
+[ERROR]     file does not contain class com.bookmytable.service.UserService
+[ERROR]     Please remove or make sure it appears in the correct subdirectory of the sourcepath.
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/repo/BookingRepository.java:[3,29] cannot access com.bookmytable.model.User
+[ERROR]   bad source file: /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/model/User.java
+[ERROR]     file does not contain class com.bookmytable.model.User
+[ERROR]     Please remove or make sure it appears in the correct subdirectory of the sourcepath.
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/service/BookingService.java:[3,27] cannot access com.bookmytable.dto.BookingRequest
+[ERROR]   bad source file: /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/dto/BookingRequest.java
+[ERROR]     file does not contain class com.bookmytable.dto.BookingRequest
+[ERROR]     Please remove or make sure it appears in the correct subdirectory of the sourcepath.
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/service/BookingService.java:[4,29] cannot access com.bookmytable.model.Booking
+[ERROR]   bad source file: /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/model/Booking.java
+[ERROR]     file does not contain class com.bookmytable.model.Booking
+[ERROR]     Please remove or make sure it appears in the correct subdirectory of the sourcepath.
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/service/BookingService.java:[5,28] cannot access com.bookmytable.repo.BookingRepository
+[ERROR]   bad source file: /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/repo/BookingRepository.java
+[ERROR]     file does not contain class com.bookmytable.repo.BookingRepository
+[ERROR]     Please remove or make sure it appears in the correct subdirectory of the sourcepath.
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/service/RestaurantService.java:[3,27] cannot access com.bookmytable.dto.SearchRequest
+[ERROR]   bad source file: /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/dto/SearchRequest.java
+[ERROR]     file does not contain class com.bookmytable.dto.SearchRequest
+[ERROR]     Please remove or make sure it appears in the correct subdirectory of the sourcepath.
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/service/RestaurantService.java:[4,27] cannot access com.bookmytable.dto.SearchResult
+[ERROR]   bad source file: /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/dto/SearchResult.java
+[ERROR]     file does not contain class com.bookmytable.dto.SearchResult
+[ERROR]     Please remove or make sure it appears in the correct subdirectory of the sourcepath.
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/service/RestaurantService.java:[7,28] cannot access com.bookmytable.repo.RestaurantRepository
+[ERROR]   bad source file: /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/repo/RestaurantRepository.java
+[ERROR]     file does not contain class com.bookmytable.repo.RestaurantRepository
+[ERROR]     Please remove or make sure it appears in the correct subdirectory of the sourcepath.
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/service/UserService.java:[3,30] cannot access com.bookmytable.config.JwtUtil
+[ERROR]   bad source file: /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/config/JwtUtil.java
+[ERROR]     file does not contain class com.bookmytable.config.JwtUtil
+[ERROR]     Please remove or make sure it appears in the correct subdirectory of the sourcepath.
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/service/UserService.java:[4,29] cannot access com.bookmytable.model.Role
+[ERROR]   bad source file: /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/model/Role.java
+[ERROR]     file does not contain class com.bookmytable.model.Role
+[ERROR]     Please remove or make sure it appears in the correct subdirectory of the sourcepath.
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/service/UserService.java:[6,28] cannot access com.bookmytable.repo.UserRepository
+[ERROR]   bad source file: /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/repo/UserRepository.java
+[ERROR]     file does not contain class com.bookmytable.repo.UserRepository
+[ERROR]     Please remove or make sure it appears in the correct subdirectory of the sourcepath.
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/web/AuthController.java:[4,27] cannot access com.bookmytable.dto.AuthRequest
+[ERROR]   bad source file: /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/dto/AuthRequest.java
+[ERROR]     file does not contain class com.bookmytable.dto.AuthRequest
+[ERROR]     Please remove or make sure it appears in the correct subdirectory of the sourcepath.
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/web/AuthController.java:[5,27] cannot access com.bookmytable.dto.AuthResponse
+[ERROR]   bad source file: /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/dto/AuthResponse.java
+[ERROR]     file does not contain class com.bookmytable.dto.AuthResponse
+[ERROR]     Please remove or make sure it appears in the correct subdirectory of the sourcepath.
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/web/BookingController.java:[7,31] cannot access com.bookmytable.service.BookingService
+[ERROR]   bad source file: /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/service/BookingService.java
+[ERROR]     file does not contain class com.bookmytable.service.BookingService
+[ERROR]     Please remove or make sure it appears in the correct subdirectory of the sourcepath.
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/web/PublicController.java:[6,29] cannot access com.bookmytable.model.Review
+[ERROR]   bad source file: /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/model/Review.java
+[ERROR]     file does not contain class com.bookmytable.model.Review
+[ERROR]     Please remove or make sure it appears in the correct subdirectory of the sourcepath.
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/web/PublicController.java:[7,28] cannot access com.bookmytable.repo.ReviewRepository
+[ERROR]   bad source file: /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/repo/ReviewRepository.java
+[ERROR]     file does not contain class com.bookmytable.repo.ReviewRepository
+[ERROR]     Please remove or make sure it appears in the correct subdirectory of the sourcepath.
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/web/PublicController.java:[8,31] cannot access com.bookmytable.service.RestaurantService
+[ERROR]   bad source file: /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/service/RestaurantService.java
+[ERROR]     file does not contain class com.bookmytable.service.RestaurantService
+[ERROR]     Please remove or make sure it appears in the correct subdirectory of the sourcepath.
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/dto/AuthRequest.java:[3,8] class AuthResponse is public, should be declared in a file named AuthResponse.java
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/dto/AuthResponse.java:[3,8] class AuthRequest is public, should be declared in a file named AuthRequest.java
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/dto/AuthResponse.java:[4,8] duplicate class: main.java.com.bookmytable.dto.AuthResponse
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/service/UserService.java:[16,8] duplicate class: main.java.com.bookmytable.service.UserService
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/config/SecurityConfig.java:[23,17] cannot find symbol
+[ERROR]   symbol:   class UserService
+[ERROR]   location: class SecurityConfig
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/config/SecurityConfig.java:[24,17] cannot find symbol
+[ERROR]   symbol:   class JwtAuthFilter
+[ERROR]   location: class SecurityConfig
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/dto/BookingRequest.java:[6,14] cannot find symbol
+[ERROR]   symbol:   class LocalDate
+[ERROR]   location: class main.java.com.bookmytable.dto.BookingRequest
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/dto/BookingRequest.java:[7,14] cannot find symbol
+[ERROR]   symbol:   class LocalTime
+[ERROR]   location: class main.java.com.bookmytable.dto.BookingRequest
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/dto/SearchRequest.java:[5,14] cannot find symbol
+[ERROR]   symbol:   class LocalDate
+[ERROR]   location: class main.java.com.bookmytable.dto.SearchRequest
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/dto/SearchRequest.java:[6,14] cannot find symbol
+[ERROR]   symbol:   class LocalTime
+[ERROR]   location: class main.java.com.bookmytable.dto.SearchRequest
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/model/User.java:[10,8] duplicate class: main.java.com.bookmytable.model.User
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/repo/BookingRepository.java:[5,60] cannot find symbol
+[ERROR]   symbol: class User
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/repo/BookingRepository.java:[6,12] cannot find symbol
+[ERROR]   symbol:   class User
+[ERROR]   location: interface main.java.com.bookmytable.repo.BookingRepository
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/repo/RestaurantRepository.java:[5,63] cannot find symbol
+[ERROR]   symbol: class User
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/repo/RestaurantRepository.java:[6,12] cannot find symbol
+[ERROR]   symbol:   class User
+[ERROR]   location: interface main.java.com.bookmytable.repo.RestaurantRepository
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/repo/ReviewRepository.java:[5,59] cannot find symbol
+[ERROR]   symbol: class User
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/repo/ReviewRepository.java:[6,12] cannot find symbol
+[ERROR]   symbol:   class User
+[ERROR]   location: interface main.java.com.bookmytable.repo.ReviewRepository
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/repo/UserRepository.java:[5,57] cannot find symbol
+[ERROR]   symbol: class User
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/repo/UserRepository.java:[6,12] cannot find symbol
+[ERROR]   symbol:   class User
+[ERROR]   location: interface main.java.com.bookmytable.repo.UserRepository
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/dto/BookingRequest.java:[4,8] duplicate class: main.java.com.bookmytable.dto.BookingRequest
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/model/Booking.java:[11,8] duplicate class: main.java.com.bookmytable.model.Booking
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/repo/BookingRepository.java:[5,8] duplicate class: main.java.com.bookmytable.repo.BookingRepository
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/service/BookingService.java:[14,17] cannot find symbol
+[ERROR]   symbol:   class BookingRepository
+[ERROR]   location: class main.java.com.bookmytable.service.BookingService
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/service/BookingService.java:[18,40] cannot find symbol
+[ERROR]   symbol:   class BookingRequest
+[ERROR]   location: class main.java.com.bookmytable.service.BookingService
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/service/BookingService.java:[18,10] cannot find symbol
+[ERROR]   symbol:   class Booking
+[ERROR]   location: class main.java.com.bookmytable.service.BookingService
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/dto/SearchRequest.java:[4,8] duplicate class: main.java.com.bookmytable.dto.SearchRequest
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/dto/SearchResult.java:[5,8] duplicate class: main.java.com.bookmytable.dto.SearchResult
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/repo/RestaurantRepository.java:[5,8] duplicate class: main.java.com.bookmytable.repo.RestaurantRepository
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/service/RestaurantService.java:[16,17] cannot find symbol
+[ERROR]   symbol:   class RestaurantRepository
+[ERROR]   location: class main.java.com.bookmytable.service.RestaurantService
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/service/RestaurantService.java:[17,17] cannot find symbol
+[ERROR]   symbol:   class BookingRepository
+[ERROR]   location: class main.java.com.bookmytable.service.RestaurantService
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/service/RestaurantService.java:[19,36] cannot find symbol
+[ERROR]   symbol:   class SearchRequest
+[ERROR]   location: class main.java.com.bookmytable.service.RestaurantService
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/service/RestaurantService.java:[19,15] cannot find symbol
+[ERROR]   symbol:   class SearchResult
+[ERROR]   location: class main.java.com.bookmytable.service.RestaurantService
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/config/JwtUtil.java:[14,8] duplicate class: main.java.com.bookmytable.config.JwtUtil
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/model/Role.java:[2,8] duplicate class: main.java.com.bookmytable.model.Role
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/repo/UserRepository.java:[5,8] duplicate class: main.java.com.bookmytable.repo.UserRepository
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/service/UserService.java:[17,17] cannot find symbol
+[ERROR]   symbol:   class UserRepository
+[ERROR]   location: class main.java.com.bookmytable.service.UserService
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/service/UserService.java:[19,17] cannot find symbol
+[ERROR]   symbol:   class JwtUtil
+[ERROR]   location: class main.java.com.bookmytable.service.UserService
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/dto/AuthRequest.java:[2,8] duplicate class: main.java.com.bookmytable.dto.AuthRequest
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/web/AuthController.java:[14,17] cannot find symbol
+[ERROR]   symbol:   class UserService
+[ERROR]   location: class main.java.com.bookmytable.web.AuthController
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/web/AuthController.java:[17,68] cannot find symbol
+[ERROR]   symbol:   class AuthRequest
+[ERROR]   location: class main.java.com.bookmytable.web.AuthController
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/web/AuthController.java:[17,25] cannot find symbol
+[ERROR]   symbol:   class AuthResponse
+[ERROR]   location: class main.java.com.bookmytable.web.AuthController
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/web/AuthController.java:[22,65] cannot find symbol
+[ERROR]   symbol:   class AuthRequest
+[ERROR]   location: class main.java.com.bookmytable.web.AuthController
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/web/AuthController.java:[22,25] cannot find symbol
+[ERROR]   symbol:   class AuthResponse
+[ERROR]   location: class main.java.com.bookmytable.web.AuthController
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/service/BookingService.java:[12,8] duplicate class: main.java.com.bookmytable.service.BookingService
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/web/BookingController.java:[17,17] cannot find symbol
+[ERROR]   symbol:   class BookingService
+[ERROR]   location: class main.java.com.bookmytable.web.BookingController
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/web/BookingController.java:[18,17] cannot find symbol
+[ERROR]   symbol:   class UserRepository
+[ERROR]   location: class main.java.com.bookmytable.web.BookingController
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/web/BookingController.java:[23,27] cannot find symbol
+[ERROR]   symbol:   class BookingRequest
+[ERROR]   location: class main.java.com.bookmytable.web.BookingController
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/web/BookingController.java:[21,25] cannot find symbol
+[ERROR]   symbol:   class Booking
+[ERROR]   location: class main.java.com.bookmytable.web.BookingController
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/model/Review.java:[8,8] duplicate class: main.java.com.bookmytable.model.Review
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/repo/ReviewRepository.java:[5,8] duplicate class: main.java.com.bookmytable.repo.ReviewRepository
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/service/RestaurantService.java:[15,8] duplicate class: main.java.com.bookmytable.service.RestaurantService
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/web/PublicController.java:[17,17] cannot find symbol
+[ERROR]   symbol:   class RestaurantService
+[ERROR]   location: class main.java.com.bookmytable.web.PublicController
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/web/PublicController.java:[18,17] cannot find symbol
+[ERROR]   symbol:   class ReviewRepository
+[ERROR]   location: class main.java.com.bookmytable.web.PublicController
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/web/PublicController.java:[21,43] cannot find symbol
+[ERROR]   symbol:   class SearchRequest
+[ERROR]   location: class main.java.com.bookmytable.web.PublicController
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/web/PublicController.java:[21,15] cannot find symbol
+[ERROR]   symbol:   class SearchResult
+[ERROR]   location: class main.java.com.bookmytable.web.PublicController
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/web/PublicController.java:[26,15] cannot find symbol
+[ERROR]   symbol:   class Review
+[ERROR]   location: class main.java.com.bookmytable.web.PublicController
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/config/JwtUtil.java:[29,16] cannot find symbol
+[ERROR]   symbol:   method parserBuilder()
+[ERROR]   location: class io.jsonwebtoken.Jwts
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/service/BookingService.java:[24,5] cannot find symbol
+[ERROR]   symbol:   class Booking
+[ERROR]   location: class main.java.com.bookmytable.service.BookingService
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/service/BookingService.java:[24,21] cannot find symbol
+[ERROR]   symbol:   class Booking
+[ERROR]   location: class main.java.com.bookmytable.service.BookingService
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/service/BookingService.java:[43,5] cannot find symbol
+[ERROR]   symbol:   class Booking
+[ERROR]   location: class main.java.com.bookmytable.service.BookingService
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/service/RestaurantService.java:[39,18] cannot find symbol
+[ERROR]   symbol:   class SearchResult
+[ERROR]   location: class main.java.com.bookmytable.service.RestaurantService
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/service/UserService.java:[23,5] cannot find symbol
+[ERROR]   symbol:   class User
+[ERROR]   location: class main.java.com.bookmytable.service.UserService
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/service/UserService.java:[23,18] cannot find symbol
+[ERROR]   symbol:   class User
+[ERROR]   location: class main.java.com.bookmytable.service.UserService
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/service/UserService.java:[26,23] cannot find symbol
+[ERROR]   symbol:   variable Role
+[ERROR]   location: class main.java.com.bookmytable.service.UserService
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/service/UserService.java:[32,5] cannot find symbol
+[ERROR]   symbol:   class User
+[ERROR]   location: class main.java.com.bookmytable.service.UserService
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/service/UserService.java:[40,5] cannot find symbol
+[ERROR]   symbol:   class User
+[ERROR]   location: class main.java.com.bookmytable.service.UserService
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/web/AuthController.java:[18,34] cannot find symbol
+[ERROR]   symbol:   class AuthResponse
+[ERROR]   location: class main.java.com.bookmytable.web.AuthController
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/web/AuthController.java:[23,34] cannot find symbol
+[ERROR]   symbol:   class AuthResponse
+[ERROR]   location: class main.java.com.bookmytable.web.AuthController
+[ERROR] /Users/spartan/Documents/CMPE202/BookMyTable/backend/src/main/java/com/bookmytable/web/BookingController.java:[26,5] cannot find symbol
+[ERROR]   symbol:   class Booking
+[ERROR]   location: class main.java.com.bookmytable.web.BookingController
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

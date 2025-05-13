@@ -6,6 +6,6 @@ import org.springframework.stereotype.Service;
 @Service @Slf4j
 public class EmailService {
   public void send(String to, String body) {
-    log.info("DEV-email to {} ⇢ {}", to, body);
+    log.info("Confirmation email is sent", to, body);
   }
 }

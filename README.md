@@ -39,8 +39,8 @@ Web application that allows users to book tables at restaurants seamlessly. This
 
 ## 📋 Project Documentation
 
-- [Project Journal](https://github.com/your-username/bookmytableproject-draft/wiki/Project-Journal)
-- [Product Backlog & Sprint Board](https://docs.google.com/spreadsheets/d/your-sheet-id)
+https://docs.google.com/document/d/1WBgKvacd_V4ai3BrhAb74b6FaTxi6doCW4GT6u19BiA/edit?usp=sharing
+
 
 ## 🛠️ Setup and Installation
 
@@ -74,10 +74,7 @@ cd backend
 
 ## 🔄 API Documentation
 
-The API documentation is available using Swagger UI at:
-```
-http://localhost:8080/swagger-ui.html
-```
+https://docs.google.com/document/d/1O5jgfuiHPavxeltW3WU954IEh84eCqsSm5yK_cqNQfY/edit?usp=sharing
 
 ## 🤝 Contributing
 
@@ -87,5 +84,11 @@ http://localhost:8080/swagger-ui.html
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-Project Link: [https://github.com/nace129/bookmytableproject-draft](https://github.com/nace129/bookmytableproject-draft)
+## Project Demo
+
+User Flow:
+https://drive.google.com/file/d/1NsD_v_fkkHd49bOQ6O4goVmyuwjQ4nXa/view?usp=sharing
+
+Restaurant Manager and Admin Flow:
+https://drive.google.com/file/d/16XND6Df6_bRLpyhCODQdV8Dj31bpqSJg/view?usp=sharing
 

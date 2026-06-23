@@ -1,7 +1,6 @@
 # BookMyTable
 
-Web application that allows users to book tables at restaurants seamlessly. This project is developed by Team Cloud Circuit as part of their software engineering course. (CMPE202)
-
+Web application that allows users to book tables at restaurants seamlessly.
 ## Team Cloud Circuit
 
 ### Team Members
@@ -27,7 +26,7 @@ Web application that allows users to book tables at restaurants seamlessly. This
 ### Backend
 - Spring Boot
 - RESTful APIs
-- OpenAPI/Swagger for API documentation
+- OpenAPI/Swagger
 
 ### Database
 - MongoDB
